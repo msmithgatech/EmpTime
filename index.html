@@ -1,45 +1,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>TV Gifs!</title>
+  <title>Emp Time! </title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <script type="text/javascript" src="assets/js/gif.js"></script>
-  
-<body>
+  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+  <script type="text/javascript" src="assets/js/emp.js"></script>
 
-<form>
-    <div class="form-group">
-      <label for="exampleFormControlInput1">Email address</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-    </div>
-    <div class="form-group">
-      <label for="exampleFormControlSelect1">Example select</label>
-      <select class="form-control" id="exampleFormControlSelect1">
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-      </select>
-    </div>
-    <div class="form-group">
-      <label for="exampleFormControlSelect2">Example multiple select</label>
-      <select multiple class="form-control" id="exampleFormControlSelect2">
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-      </select>
-    </div>
-    <div class="form-group">
-      <label for="exampleFormControlTextarea1">Example textarea</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-  </form>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+          <h1>Employee Data Management </h1> 
+          <p></p> 
+        </div>
+        
+     </div>
+
+     <div>
+
+        <form>
+         <div class="form-group">
+            <label for="exampleFormControlInput1">Employee Name</label>
+             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+         <div class="form-group">
+             <label for="exampleFormControlSelect1">Role</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+        <option>Management</option>
+        <option>Operations</option>
+       <option>Tech Support</option>
+        </select>
+        </div>
+         <div class="form-group">
+             <label for="exampleFormControlInput1">Start Date</label>
+            <input id="date" type="date">
+        </div>
+        <div class="form-group">
+         <label for="exampleFormControlSelect2">Monthly Rate</label>
+        <select multiple class="form-control" id="exampleFormControlSelect2">
+            </div>
+     </form>
+  </div>
       
 </body>
 </html>
